@@ -10,7 +10,7 @@ export default function CardAside() {
         "Mendekati AI yang Mampu Belajar Sendiri: Pengembangan Algoritma Pembelajaran Mesin yang Efektif",
       avatar: Avatar8,
       author: "Rochel Foose",
-      bg: "secondary",
+      bg: "bg-secondary",
     },
     {
       date: "16 Des 2022",
@@ -18,7 +18,7 @@ export default function CardAside() {
         "Perkembangan Terbaru dalam Teknologi 5G: Masa Depan Koneksi Internet yang Lebih Cepat dan Andal",
       avatar: Avatar9,
       author: "Ede Warren",
-      bg: "primary",
+      bg: "bg-primary",
     },
     {
       date: "05 Jun 2023",
@@ -26,7 +26,7 @@ export default function CardAside() {
         "Dampak Stres pada Kesehatan Mental dan Strategi Mengelolanya dalam Kehidupan Sehari-hari",
       avatar: Avatar10,
       author: "Eduardo",
-      bg: "secondary",
+      bg: "bg-secondary",
     },
   ];
 
@@ -35,7 +35,7 @@ export default function CardAside() {
       {dataBacaanPopuler.map((item, index) => (
         <div
           key={index}
-          className={`h-auto p-5 bg-${item.bg} bg-opacity-20 rounded-2xl mb-5 cursor-pointer`}
+          className={`h-auto p-5 ${item.bg} bg-opacity-20 rounded-2xl mb-5 cursor-pointer`}
         >
           <header className="text-sm flex items-center gap-2">
             <h1 className="font-semibold bg-light px-2 py-1 rounded-md ">
