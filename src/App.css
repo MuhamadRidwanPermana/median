@@ -1,0 +1,7 @@
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+.Category::-webkit-scrollbar {
+  display: none;
+}
