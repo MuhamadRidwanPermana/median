@@ -1,7 +1,6 @@
 import React from "react";
-import Header from "../Components/LandingPage/Header";
-import Body from "../Components/LandingPage/Body";
-import Footer from "../Components/Footer";
+import Header from "@/Components/LandingPage/Header";
+import Body from "@/Components/LandingPage/Body";
 
 export default function LandingPage() {
   return (

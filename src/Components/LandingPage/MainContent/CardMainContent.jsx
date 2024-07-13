@@ -1,60 +1,65 @@
 import { useState, useEffect } from "react";
 
+import { Avatar1, Avatar2, Avatar3, Avatar4, Avatar6, Avatar7 } from "@/utils/avatar";
+import { Image1, Image2, Image3, Image4, Image5, Image6 } from "@/utils/images";
+
 export default function CardMainContent() {
   const data = [
     {
       title:
         "Internet of Things (IoT) dan Masa Depan Keterhubungan dalam Kehidupan Sehari-hari",
       author: "Kristin Watson",
-      avatar: "src/assets/images/Avatar2.png",
+      // avatar: "src/assets/images/Avatar2.png",
+      avatar: Avatar2,
       date: "09 Jun 2023",
       topik: "Media",
-      img: "src/assets/images/Image1.png",
+      // img: "src/assets/images/Image1.png",
+      img: Image1,
     },
     {
       title:
         "Mengembangkan Keterampilan Berpikir Kritis melalui Pendidikan: Strategi dan Implementasi di Kelas",
       author: "Cameron Williamson",
-      avatar: "src/assets/images/Avatar3.png",
+      avatar: Avatar3,
       date: "02 Jun 2023",
       topik: "Media",
-      img: "src/assets/images/Image2.png",
+      img: Image2,
     },
     {
       title:
         "Inovasi Teknologi Big Data: Menggali Wawasan dan Mendukung Pengambilan Keputusan yang Efektif",
       author: "Arlene McCoy",
-      avatar: "src/assets/images/Avatar4.png",
+      avatar: Avatar4,
       date: "15 Agu 2023",
       topik: "Media",
-      img: "src/assets/images/Image3.png",
+      img: Image3,
     },
     {
       title:
         "Desain Interior Ramah Lingkungan: Pendekatan Green Design dalam Menciptakan Ruang yang Berkelanjutan",
       author: "Chance Vaccaro",
-      avatar: "src/assets/images/Avatar1.png",
+      avatar: Avatar1,
       date: "27 Mar 2023",
       topik: "Media",
-      img: "src/assets/images/Image4.png",
+      img: Image4,
     },
     {
       title:
         "Pendidikan Karakter: Membangun Nilai-Nilai Etika dan Moral pada Anak-anak",
       author: "Darrell Steward",
-      avatar: "src/assets/images/Avatar6.png",
+      avatar: Avatar6,
       date: "23 Jan 2023",
       topik: "Media",
-      img: "src/assets/images/Image5.png",
+      img: Image5,
     },
     {
       title:
         "Peran Penting Kepercayaan Diri dalam Pengembangan Pribadi dan Profesional",
       author: "Savannah Nguyen",
-      avatar: "src/assets/images/Avatar7.png",
+      avatar: Avatar7,
       date: "13 Apr 2023",
       topik: "Media",
-      img: "src/assets/images/Image6.png",
+      img: Image6,
     },
   ];
 

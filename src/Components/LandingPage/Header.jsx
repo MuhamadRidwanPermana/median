@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Avatar1 } from "@/utils/avatar";
+
 export default function Header() {
   return (
     <div className="flex justify-between items-center w-full lg:px-10 px-5 lg:h-14 h-16 lg:border-none border-b-2 border-primary border-opacity-15">
@@ -81,7 +83,7 @@ export default function Header() {
           </svg>
         </div>
         <div className="w-10 h-10 rounded-full flex justify-center items-center">
-          <img src="src/assets/images/Avatar1.png" alt="" className="w-10 h-10 rounded-full flex justify-center items-center"/>
+          <img src={Avatar1} alt="" className="w-10 h-10 rounded-full flex justify-center items-center"/>
         </div>
         <p className="text-sm mx-3 font-semibold lg:flex hidden">
           Chance Vaccaro

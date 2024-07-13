@@ -57,16 +57,9 @@ export default function LoginForm() {
           <div className="flex justify-between items-center text-sm my-5">
             <div>
               <span>Belum Punya Akun?</span>
-              <Link to="/register">
-                <span className="font-semibold text-primary"> Register!</span>
-              </Link>
+              <span className="font-semibold text-primary cursor-pointer"> Register!</span>
             </div>
-            <Link to="/forgot-password">
-              <span className="font-semibold text-primary">
-                {" "}
-                Lupa Password!
-              </span>
-            </Link>
+            <span className="font-semibold text-primary cursor-pointer"> Lupa Password!</span>
           </div>
 
           <div>

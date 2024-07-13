@@ -1,20 +1,22 @@
 import React from "react";
 
-import Tittle from "../Tittle";
+import { Avatar11, Avatar12, Avatar13 } from "@/utils/avatar";
+
+import Tittle from "@/Components/LandingPage/Tittle";
 
 export default function RekomendasiPenulis() {
   const dataRekomendasiPenulis = [
     {
       nama: "Aurellia",
-      avatar: "src/assets/images/Avatar11.png",
+      avatar: Avatar11,
     },
     {
       nama: "Max",
-      avatar: "src/assets/images/Avatar12.png",
+      avatar: Avatar12,
     },
     {
       nama: "Theresa Web",
-      avatar: "src/assets/images/Avatar13.png",
+      avatar: Avatar13,
     },
   ];
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 
-import Tittle from "../Tittle";
-import Category from "../Category";
-import CardMainContent from "./CardMainContent";
-import RekomendasiPenulis from "../Aside/RekomendasiPenulis";
+import Tittle from "@/Components/LandingPage/Tittle";
+import CardMainContent from "@/Components/LandingPage/MainContent/CardMainContent";
+import Category from "@/Components/LandingPage/Category";
+import RekomendasiPenulis from "@/Components/LandingPage/Aside/RekomendasiPenulis";
 
 export default function Main() {
   return (

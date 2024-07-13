@@ -1,7 +1,7 @@
 import React from "react";
 
-import LoginForm from "../Components/LoginForm";
-import Footer from "./Footer";
+import LoginForm from "@/Components/LoginForm";
+import Footer from "@/Components/Footer";
 
 export default function LoginCard() {
   return (

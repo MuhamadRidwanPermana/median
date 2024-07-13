@@ -1,9 +1,8 @@
 import React from "react";
 
-import Main from "./MainContent/Main";
-import Aside from "./Aside/Aside";
-import Category from "./Category";
-import RekomendasiPenulis from "./Aside/RekomendasiPenulis";
+import Main from "@/Components/LandingPage/MainContent/Main";
+import Aside from "@/Components/LandingPage/Aside/Aside";
+import Category from "@/Components/LandingPage/Category";
 
 export default function Body() {
   return (

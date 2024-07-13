@@ -1,7 +1,7 @@
 import React from "react";
-import CardAside from "./CardAside";
-import Tittle from "../Tittle";
-import RekomendasiPenulis from "./RekomendasiPenulis";
+import CardAside from "@/Components/LandingPage/Aside/CardAside";
+import Tittle from "@/Components/LandingPage/Tittle";
+import RekomendasiPenulis from "@/Components/LandingPage/Aside/RekomendasiPenulis";
 
 export default function Aside() {
   return (
